@@ -6,11 +6,7 @@ layout: html_minifier
 {% include head.html %}
 <body class="d-flex flex-column h-100" cz-shortcut-listen="true">
 <h1 style="display: none">{{ site.title }}</h1>
-<main class="flex-shrink-0">
-    {% include navbar.html %}
-    {{ content }}
-</main>
-{% include footer.html %}
+{{ content }}
 <script src="{{ site.srcurl }}{{ site.js_path }}bootstrap/bootstrap.bundle.js"></script>
 <script src="{{ site.srcurl }}{{ site.js_path }}bundle.js"></script>
 </body>

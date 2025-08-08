@@ -1,9 +1,80 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="index, follow"/>
     <meta charset="utf-8">
-    {%if paginator and paginator.page != 1 %} <title> {{ page.title }} - Página {{ paginator.page }} | {{ site.title }} </title>{% endif %}
-    {% seo %}
+
+    <meta name="description"
+          content="Programa de Desenvolvimento de Líderes conduzido pela psicóloga Isis Couto. Transforme a liderança da sua empresa com metodologia comprovada em comunicação assertiva, empatia e gestão de equipes. 3 módulos presenciais focados em cultura organizacional e CNV.">
+    <meta name="keywords"
+          content="desenvolvimento de liderança, treinamento corporativo, comunicação não violenta, CNV, liderança empresarial, psicologia organizacional, Isis Couto, gestão de equipes, cultura organizacional, treinamento de líderes">
+    <meta name="author" content="Isis Couto - Psicóloga Clínica">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://treinamento-lideranca.isiscouto.com.br">
+    <meta property="og:title" content="Desenvolvimento de Líderes | Isis Couto - Transforme sua Liderança">
+    <meta property="og:description"
+          content="Programa especializado em desenvolvimento de liderança com foco em comunicação assertiva e cultura organizacional. Metodologia comprovada por psicólogas especializadas.">
+    <meta property="og:image"
+          content="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://treinamento-lideranca.isiscouto.com.br">
+    <meta property="twitter:title" content="Desenvolvimento de Líderes | Isis Couto">
+    <meta property="twitter:description"
+          content="Transforme a liderança da sua empresa com programa especializado em comunicação assertiva e gestão de equipes.">
+    <meta property="twitter:image"
+          content="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Desenvolvimento de Líderes",
+            "description": "Programa de desenvolvimento de liderança empresarial com foco em comunicação assertiva, empatia e cultura organizacional",
+            "provider": {
+                "@type": "Person",
+                "name": "Isis Couto",
+                "jobTitle": "Psicóloga Clínica",
+                "description": "Especialista em Psicologia Organizacional e Desenvolvimento de Liderança"
+            },
+            "serviceType": "Treinamento Corporativo",
+            "areaServed": "Brasil",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Módulos de Treinamento",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Course",
+                            "name": "Liderança Alinhada à Cultura Organizacional",
+                            "description": "Módulo focado na identidade institucional e papel estratégico do líder"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Course",
+                            "name": "Liderança Empática e Comunicação Não Violenta",
+                            "description": "Desenvolvimento de competências de comunicação assertiva baseadas na CNV"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Course",
+                            "name": "Na Prática, a Liderança Acontece",
+                            "description": "Consolidação através de simulações práticas e planos de ação individuais"
+                        }
+                    }
+                ]
+            }
+        }
+    </script>
+    <title>Desenvolvimento de Líderes | Isis Couto</title>
     <link rel="stylesheet" href="{{ site.srcurl }}{{ site.css_path }}main.css">
     <link rel="icon" type="image/x-icon" href="{{ site.srcurl }}/favicon.ico">
     <!--[if IE]>

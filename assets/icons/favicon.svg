@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F202E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#162C3E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4550F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8470D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGradient)" stroke="#D4550F" stroke-width="2"/>
+  
+  <!-- Leadership symbol - stylized figures representing team -->
+  <g fill="url(#iconGradient)">
+    <!-- Central leader figure (larger) -->
+    <circle cx="32" cy="20" r="4" />
+    <rect x="28" y="24" width="8" height="12" rx="2" />
+    
+    <!-- Team members (smaller figures) -->
+    <!-- Left figure -->
+    <circle cx="20" cy="24" r="3" />
+    <rect x="17.5" y="27" width="5" height="8" rx="1.5" />
+    
+    <!-- Right figure -->
+    <circle cx="44" cy="24" r="3" />
+    <rect x="41.5" y="27" width="5" height="8" rx="1.5" />
+    
+    <!-- Connection lines showing leadership -->
+    <path d="M 28 28 L 23 30" stroke="url(#iconGradient)" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 36 28 L 41 30" stroke="url(#iconGradient)" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+  
+  <!-- Growth/success arrow -->
+  <path d="M 25 45 L 32 42 L 39 45" stroke="#D4550F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 29 43 L 32 42 L 35 43" stroke="#D4550F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Subtle IC initials -->
+  <text x="32" y="54" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#D4550F" opacity="0.8">IC</text>
+</svg>

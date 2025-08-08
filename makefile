@@ -8,7 +8,7 @@ setup: ## Setup the project
 	if [ "$(shell uname -m)" = "arm64" ]; then make setup-arm; else make setup-x86; fi
 
 setup-x86: ## Setup the project for x86
-	docker run -t --rm \
+	docker run --rm \
 	  --name jekyll-bootstrap \
       -v ./:/app \
       -w /app \
@@ -20,7 +20,7 @@ setup-x86: ## Setup the project for x86
       /bin/bash -c "bundle install --path=./.gem-cache && bundle exec jekyll serve --force_polling --host 0.0.0.0 --livereload"
 
 setup-arm: ## Setup the project for ARM
-	docker run -it --rm \
+	docker run --rm \
 	  --name jekyll-bootstrap \
       -v ./:/app \
       -w /app \

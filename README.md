@@ -1,76 +1,35 @@
-# The Awesome Jekyll Template
+# 🚀 Desenvolvimento de Líderes | Site Institucional
 
-A complete, production-ready Jekyll template with Bootstrap, designed for fast and easy deployment on GitHub Pages.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Responsive](https://img.shields.io/badge/Responsive-4CAF50?style=flat&logo=responsive&logoColor=white)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
-[Live Demo](https://jekyll-bootstrap.douglasmedeiros.dev/)
+Site institucional profissional para o programa "Desenvolvimento de Líderes" conduzido pela psicóloga **Isis Couto**.
+Landing page moderna e responsiva focada na conversão de empresas interessadas em treinamento de liderança corporativa.
+
+[Ver Site](https://treinamento-lideranca.isiscouto.com.br) | [Contato](mailto:psi@isiscouto.com.br)
 
 ---
 
 ## Features
 
-- **Jekyll**: Static site generator, fully compatible with GitHub Pages.
-- **Bootstrap 5.3**: Responsive design with Sass support and [icons](https://github.com/twbs/icons).
-- **HTML/CSS/JS Minification**: Optimized builds using [Jekyll Minifier](https://github.com/Mendeo/jekyll-minifier).
-- **Landing Page Effects**: Integrated [AOS library](https://michalsnik.github.io/aos/) for animations.
-- **Dynamic Blog**: Pagination, tags, and categories out of the box.
-- **View Counter**: Integrated with [CountAPI](https://countapi.xyz/).
-- **Comments**: Powered by [Disqus](https://disqus.com/).
-- **Contact Form**: Email responses via [Static Forms](https://www.staticforms.xyz/).
-- **Docker Support**: Easy local development with Docker.
-- **Ready-to-use Configuration**: Global variables, directories, and assets pre-configured.
-
-## Getting Started
-
-### Prerequisites
-
-- [Git](https://git-scm.com/)
-- [Docker](https://www.docker.com/)
-- [GNU Make](https://www.gnu.org/software/make/) (available by default on most Unix systems)
-
-### Installation
-
-1. **Clone the repository:**
-    ```sh
-    git clone https://github.com/medeirosinacio/jekyll-bootstrap-github-pages.git
-    cd jekyll-bootstrap-github-pages
-    ```
-
-2. **Start the local server:**
-    ```sh
-    make setup
-    ```
-   The server will be available at [http://localhost:4000](http://localhost:4000).
-
-> **Note:** The `make setup` command automatically detects your system architecture (x86 or ARM) and runs the appropriate Docker environment.
-
-### Makefile Commands
-
-- `make setup` &mdash; Sets up and runs the project in a Docker container. Detects your CPU architecture and uses the correct image.
-- `make help` &mdash; Shows all available make commands and their descriptions.
-
-### Dependencies
-
-All runtime dependencies are managed inside the Docker container. You only need to have Docker and Make installed on your machine. The container will handle:
-
-- Ruby and Bundler (for Jekyll)
-- Node.js (for asset compilation)
-- All required Ruby gems (see `Gemfile`)
-
-## Usage
-
-- Edit `_config.yml` to update site settings, URLs, and metadata.
-- Add your posts in the `_posts` directory.
-- Customize styles in `assets/css/`.
-- All static assets are located in the `assets/` folder.
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+- **Design Responsivo**: Mobile-first, adaptável a todos os dispositivos
+- **SEO Otimizado**: Meta tags, structured data e Open Graph completos
+- **Performance**: CSS/JS otimizado, imagens comprimidas, loading rápido
+- **Animações**: Efeitos de scroll suaves e interações elegantes
+- **Conversão**: CTAs estratégicos e formulários de contato otimizados
+- **Acessibilidade**: HTML semântico e contraste adequado
+- **Cross-browser**: Compatibilidade garantida em todos navegadores modernos
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
-**Made with ❤️ by [Douglas Medeiros](https://github.com/medeirosinacio)**
+**Feito com ❤️ para transformar a liderança nas empresas brasileiras**
+
+**Isis Couto** - Psicóloga
+Clínica | [Instagram](https://www.instagram.com/psicologaisiscouto/) | [Email](mailto:psi@isiscouto.com.br)
